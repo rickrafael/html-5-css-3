@@ -1,0 +1,15 @@
+* TIPOS DE CAIXA *
+
+--BOX LEVEL--                               -- INLINE LEVEL--
+                                                
+- h1 / h6 ;                                     - span;
+- header;                                       - a ; 
+- main ;                                        - code;
+- footer ;                                      - small;
+- div ;                                         - strong ; 
+- form ;                                        - em ; 
+- nav;                                          - sup/sub ; 
+- article ;                                     - label ; 
+- aside;                                        - button ; 
+- video;                                        - input ; 
+- p;                                            - select ;

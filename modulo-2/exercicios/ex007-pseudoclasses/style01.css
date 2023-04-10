@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*  Pseudoclasses são representadas por : */
+
+div{
+    background-color: lightgrey;
+    text-align: center;
+    height:200px ;
+    width:200px ;
+    border: 1px solid black;
+    padding:5px;
+    display: inline-block;
+}
+
+div:hover{
+    background-color:rgb(106, 106, 183);
+}

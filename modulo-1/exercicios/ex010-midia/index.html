@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes.</p>
+    <picture>
+       <source media="(max-width:700px )" srcset="imagens/img-p.png">
+        <source media="(max-width:1000px )" srcset="imagens/img-m.png">
+        <img src="imagens/img-g.png" alt="imagem grande">
+    </picture>
+
+    <h1>Vamos inserir um áudio</h1>
+    <audio preload="auto" autoplay controls loop>
+       <source src="midia/Boom Bap Flick - Quincas Moreira.mp3" type="audio/mpeg">
+    </audio>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #94d7a5;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/*Header configurations */
+header{
+    background-image: linear-gradient(to top, #4c8259,#488f5a,#69b37c,#94d7a5);
+    padding: 10px;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Berkshire+Swash & family = Roboto:wght@300;400 & display=swap');
+
+header >h1{
+    font-family:'Roboto',sans-serif;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    
+}
+
+
+
+header >p{
+    text-align: center;
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.459) ;
+    color: white;
+
+}
+
+a{
+    color: white;
+    padding:5px;
+    text-decoration: none;    
+}
+
+
+/* #conteudo" configurations */
+
+#conteudo{
+    background-color: white;
+    padding: 10px
+}
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'idroid',sans-serif;
+    color:#387046 ;
+}
+
+h2{
+    font-family: 'idroid',sans-serif;
+    color: #387046;
+    background-image: linear-gradient(to right,#94d7a5,white );
+     padding-left: 8px;
+}
+
+#video{
+    background-color:#4c8259 ;
+    padding-left: 200px;
+    
+}
+
+footer{
+    background-color: #4c8259 ;
+    color: white;
+    text-align: center;
+  
+   
+    
+}
+
+.droids{
+    padding-left: 100px;
+}
+
+.irina{
+    width: 950px;
+    padding-left: 12px;
+}
+
+.bug{
+    padding-left: 350px;
+}
+
+#table{
+    background-color: #94d7a59a;
+    height: 350px;
+    margin-top: 15px;
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.401);     
+}
+
+
+    
+
+
+h4{
+    background-color:#569b68ba;
+    color: white;
+    height: 25px;
+    margin-top: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 7px;
+    
+    
+}
+
+
+main{
+    margin-bottom: 15px;
+    
+}
+
+a:hover{
+    color: rgb(24, 55, 24);
+}
+
+
+
+
+
+
+
+
+
+
+
